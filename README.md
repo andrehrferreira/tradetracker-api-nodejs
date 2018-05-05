@@ -1,6 +1,6 @@
 # Trade Tracker API
 
-[![npm package](https://nodei.co/npm/awin-api.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/awin-api/)
+[![npm package](https://nodei.co/npm/tradetracker-api.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/tradetracker-api/)
 
 API integration with Trade Tracker
 
