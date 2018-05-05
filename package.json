@@ -1,0 +1,24 @@
+{
+    "name": "tradetracker-api",
+    "version": "0.0.1",
+    "description": "API integration with Trade Tracker",
+    "author": "André Ferreira <andrehrf@gmail.com>",
+    "main": "index.js",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/vigiadepreco/tradetracker-api-nodejs"
+    },
+    "bugs": {
+        "url": "https://github.com/vigiadepreco/tradetracker-api-nodejs/issues"
+    },
+    "keywords": [
+        "api",
+        "tradetracker"
+    ],
+    "homepage": "https://github.com/vigiadepreco/tradetracker-api-nodejs",
+    "dependencies": {
+        "soap": "^0.24.0",
+        "soap-cookie": "^0.10.1"
+    }
+}
