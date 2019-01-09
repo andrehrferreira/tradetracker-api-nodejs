@@ -45,7 +45,7 @@ module.exports = function(customerID, passphrase, affiliateSiteID) {
          * @param object client
          */
         coupons: function(params, cb, client){
-            if(!client){ this.authenticate(this.programs, params, cb); }
+            if(!client){ this.authenticate(this.coupons, params, cb); }
             else{
                 client.getMaterialIncentiveVoucherItemsAsync({ affiliateSiteID: affiliateSiteID, materialOutputType: "javascript", options: params }).then((result) => {
                     cb(null, result[0]);
@@ -62,7 +62,7 @@ module.exports = function(customerID, passphrase, affiliateSiteID) {
          * @param object client
          */
         report: function(params, cb, client){
-            if(!client){ this.authenticate(this.programs, params, cb); }
+            if(!client){ this.authenticate(this.report, params, cb); }
             else{
                 client.getConversionTransactionsAsync({ affiliateSiteID: affiliateSiteID, options: params }).then((result) => {
                     cb(null, result);
